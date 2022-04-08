@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    
+    <script>
+ /* 4. Machado De Assis. Para cada um dos grupos de obras acima, ordene e crie um array com as obras. 
+Agora, ainda utilizando código, crie mais um array e insira os três primeiros livros de cada grupo de obras. **/
+        
+
+        var romances = ["Ressureição(1872) ", "A mão e a Luva(1874) ", "Helena(1876) ", "Iaiá Garcia(1878) ", "Memórias Póstumas de Brás Cubas(1881) ", "Casa Velha(1885) ", "Quincas Borba(1891)", "Dom Casmurro(1899)", "Esaú e Jacó(1904)", "Memorial de Aires(1908)" ]
+        var poesias = ["Crisálidas(1861) ", "Falenas(1870) ", "Americanas(1875) ", "Ocidentais(1880) ", "Poesias Completas(1901)"]
+        var contos = ["Contos Fluminenses(1870) ", "Histórias da Meia-Noite(1873)", "Papéis Avulsos(1882)", "Histórias sem Data(1884)", "Várias Histórias(1896) ", "Páginas Recolhidas(1899) ", "Reliquias de Casa Velha(1906)"]
+        var top3 =[]
+       
+        top3.push(romances[0])
+        top3.push(romances[1])
+        top3.push(romances[2])
+        
+
+        top3.push(poesias[0])
+        top3.push(poesias[1])
+        top3.push(poesias[2])
+
+        top3.push(contos[0])
+        top3.push(contos[1])
+        top3.push(contos[2])
+
+       alert("Vamos conhecer algumas obras de Machado de Assis:")
+       alert("Romances: " + romances)
+       alert("Poesias: " + poesias)
+       alert("Contos: " + contos)
+       alert("Agora vamos as 3 primeiras obras de cada tópico: \n" + top3  )
+       
+        console.log(romances,poesias,contos)
+    
+    </script>
+
+
+</body>
+</html>
